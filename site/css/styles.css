@@ -1,1 +1,35 @@
+* {
+    text-align: center;
+}
+input#username {
+    margin-top: 10px;
+    margin-left: 30px;  
 
+}
+input#FirstName {
+    margin-top: 10px;
+    margin-left: 23px;
+}
+input#LastName {
+    margin-top: 10px;
+    margin-left: 25px;
+}
+div.gender {
+    margin-top: 10px;
+}
+div.genderOp {
+    display: inline;
+    margin-left: 10px;
+}
+div.review {
+    margin-top: 10px;
+}
+.heading {
+    position: relative;
+    bottom: 84px;
+    left: -7px;
+}
+textarea {
+    margin-left: 42px;
+    text-align: left;
+}

@@ -5,11 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Week 1 JHK</title>
-    <script src="./js/script.js"></script>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <h1>Hello World</h1>
-    
+    <h1>Customer Information</h1>
+    <br>
+    <div class="info">
+        <label for="email">Email Address: </label>
+        <input type="email" name="email" id="email" value="">
+        <br>
+        <label for="FirstName">First Name: </label>
+        <input type="text" name="FirstName" id="FirstName">
+        <br>
+        <label for="LastName">Last Name: </label>
+        <input type="text" name="LastName" id="LastName">
+        <br>
+        <div class="gender">
+            <label for="gender" class="gender">Gender :</label>
+            <div class="genderOp">
+                <input type="radio" name="Gender" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="Gender" id="Female">
+                <label for="female">Female</label>
+                <input type="radio" name="Gender" id="Non-Binary">
+                <label for="non">Non-Binary</label>
+                <input type="radio" name="Gender" id="Other">
+                <label for="other">Other</label>
+            </div>
+        </div>
+        <div class="review">
+            <label for="review" class="heading">Review :</label>
+            <textarea name="review" id="review" cols="30" rows="5"></textarea>
+        </div>
+        <br>
+        <button class="btn">Submit</button>
+    </div>
+    <br>
+    <p class="S"></p>
+<script src="./js/script.js"></script>
 </body>
 </html>
